@@ -6,6 +6,7 @@ from routes.file_routes import file_router
 
 from contextlib import asynccontextmanager
 from models import user_model
+from models import file_model
 from db.connection import Base, engine
 
 @asynccontextmanager
